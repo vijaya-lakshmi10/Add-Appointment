@@ -1,0 +1,38 @@
+/* Write your CSS here */
+.appointment-items-list{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+.appointment-sub-container{
+    border:2px solid  #b5b7c4;
+    border-radius:8px;
+    background-color: transparent;
+    height:100px;
+    width:300px;
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+}
+.name{
+    font-size: 20px;
+    font-family: "Roboto";
+    color: #171f46;
+}
+.starBtn{
+    border: 0;
+    background: none;
+}
+.star-img{
+    height:30px;
+    width:30px;
+}
+.date-input{
+    font-size: 16px;
+    font-family: "Roboto";
+    color:  #b5b7c4;
+
+}
+
+
